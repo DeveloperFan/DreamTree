@@ -1,0 +1,56 @@
+//
+//  DreamTree.pch
+//  DreamTree
+//
+//  Created by 彦明 on 16/3/21.
+//  Copyright © 2016年 YanmingFan. All rights reserved.
+//
+
+#ifndef DreamTree_pch
+#define DreamTree_pch
+
+// LOG
+#ifdef DEBUG
+#define CFLog(...) NSLog(__VA_ARGS__)
+#else
+#define CFLog(...)
+#endif
+
+#define CFWeakSelf __weak typeof(self) weakSelf = self
+
+// 当前屏幕尺寸
+#define screenW [UIScreen mainScreen].bounds.size.width
+#define screenH [UIScreen mainScreen].bounds.size.height
+#define CFScreenBounds [UIScreen mainScreen].bounds
+
+// 主体颜色
+#define CFThemeColor [UIColor colorWithRed:255/255.0 green:192/255.0 blue:23/255.0 alpha:1.0]
+#define CFThemeLightColor [UIColor colorWithRed:255/255.0 green:235/255.0 blue:59/255.0 alpha:1.0]
+#define CFTableBgColor [UIColor colorWithRed:230/255.0 green:230/255.0 blue:230/255.0 alpha:1.0]
+#define CFGrayTextColor [UIColor colorWithRed:115/255.0 green:115/255.0 blue:115/255.0 alpha:1.0]
+#define CFLightGrayColor [UIColor colorWithRed:200/255.0 green:200/255.0 blue:200/255.0 alpha:1.0]
+
+#define CFSubtitleColor [UIColor colorWithRed:138/255.0 green:158/255.0 blue:184/255.0 alpha:1.0]
+#define CFSeparatorColorWhite [UIColor colorWithWhite:1 alpha:0.4]
+#define CFSeparatorColor [UIColor colorWithWhite:0 alpha:0.2]
+#define CFSeparatorColorDark [UIColor colorWithWhite:0 alpha:0.4]
+#define CFOrangeColor [UIColor colorWithRed:255/255.0 green:176/255.0 blue:0/255.0 alpha:1.0]
+#define CFOrangeButtonColor [UIColor colorWithRed:255/255.0 green:134/255.0 blue:92/255.0 alpha:1.0]
+#define CFGreenColor [UIColor colorWithRed:7/255.0 green:188/255.0 blue:3/255.0 alpha:1.0]
+#define CFNaviBarColor [UIColor colorWithRed:255/255.0 green:208/255.0 blue:11/255.0 alpha:1.0]
+#define CFRandomColor [UIColor colorWithRed:arc4random_uniform(256)/255.0 green:arc4random_uniform(256)/255.0 blue:arc4random_uniform(256)/255.0 alpha:1.0]
+#define CFBlackColor [UIColor colorWithRed:5/255.0 green:5/255.0 blue:5/255.0 alpha:1.0]
+#define CFLightBlackColor  [UIColor colorWithRed:74/255.0 green:74/255.0 blue:74/255.0 alpha:1.0]
+
+
+// 订单人数多少
+#define CFOrderLow [UIColor colorWithRed:183/255.0 green:245/255.0 blue:168/255.0 alpha:1.0]
+#define CFOrderMid [UIColor colorWithRed:196/255.0 green:196/255.0 blue:250/255.0 alpha:1.0]
+#define CFOrderHigh [UIColor colorWithRed:254/255.0 green:223/255.0 blue:117/255.0 alpha:1.0]
+
+// Masonry
+#define MAS_SHORTHAND
+#define MAS_SHORTHAND_GLOBALS
+#import <Masonry.h>
+
+#endif /* DreamTree_pch */
