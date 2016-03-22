@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6714466975DD4A9AC0EE929B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DAB3EE8EB33144C5E3A5109 /* libPods.a */; };
+		B8DFF8CF1C9FDEDD00524E93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DFF8CE1C9FDEDD00524E93 /* main.m */; };
+		B8DFF8D21C9FDEDD00524E93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DFF8D11C9FDEDD00524E93 /* AppDelegate.m */; };
+		B8DFF8DA1C9FDEDD00524E93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8DFF8D91C9FDEDD00524E93 /* Assets.xcassets */; };
+		B8DFF8DD1C9FDEDD00524E93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8DFF8DB1C9FDEDD00524E93 /* LaunchScreen.storyboard */; };
+		B8DFF8EB1C9FEA1400524E93 /* DTMainNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DFF8EA1C9FEA1400524E93 /* DTMainNavigationViewController.m */; };
+		B8DFF8EE1C9FEA7000524E93 /* DTMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DFF8ED1C9FEA7000524E93 /* DTMainViewController.m */; };
+		B8DFF9121C9FFECF00524E93 /* DTGodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DFF90B1C9FFECF00524E93 /* DTGodViewController.m */; };
+		B8DFF9131C9FFECF00524E93 /* DTLeavesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DFF90D1C9FFECF00524E93 /* DTLeavesViewController.m */; };
+		B8DFF9141C9FFECF00524E93 /* DTPassengersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DFF90F1C9FFECF00524E93 /* DTPassengersViewController.m */; };
+		B8DFF9171C9FFF0D00524E93 /* DTLeafCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DFF9161C9FFF0D00524E93 /* DTLeafCell.m */; };
+		B8E25A871CA0E80D00C1673A /* DTLeafItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E25A861CA0E80D00C1673A /* DTLeafItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		035B38F7EB02CFFB106C9CF2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		8DAB3EE8EB33144C5E3A5109 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8DFF8CA1C9FDEDD00524E93 /* DreamTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8DFF8CE1C9FDEDD00524E93 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B8DFF8D01C9FDEDD00524E93 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B8DFF8D11C9FDEDD00524E93 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B8DFF8D91C9FDEDD00524E93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8DFF8DC1C9FDEDD00524E93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B8DFF8DE1C9FDEDD00524E93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8DFF8E91C9FEA1400524E93 /* DTMainNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTMainNavigationViewController.h; sourceTree = "<group>"; };
+		B8DFF8EA1C9FEA1400524E93 /* DTMainNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTMainNavigationViewController.m; sourceTree = "<group>"; };
+		B8DFF8EC1C9FEA7000524E93 /* DTMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTMainViewController.h; sourceTree = "<group>"; };
+		B8DFF8ED1C9FEA7000524E93 /* DTMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTMainViewController.m; sourceTree = "<group>"; };
+		B8DFF90A1C9FFECF00524E93 /* DTGodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTGodViewController.h; sourceTree = "<group>"; };
+		B8DFF90B1C9FFECF00524E93 /* DTGodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTGodViewController.m; sourceTree = "<group>"; };
+		B8DFF90C1C9FFECF00524E93 /* DTLeavesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTLeavesViewController.h; sourceTree = "<group>"; };
+		B8DFF90D1C9FFECF00524E93 /* DTLeavesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTLeavesViewController.m; sourceTree = "<group>"; };
+		B8DFF90E1C9FFECF00524E93 /* DTPassengersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTPassengersViewController.h; sourceTree = "<group>"; };
+		B8DFF90F1C9FFECF00524E93 /* DTPassengersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTPassengersViewController.m; sourceTree = "<group>"; };
+		B8DFF9151C9FFF0D00524E93 /* DTLeafCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTLeafCell.h; sourceTree = "<group>"; };
+		B8DFF9161C9FFF0D00524E93 /* DTLeafCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTLeafCell.m; sourceTree = "<group>"; };
+		B8DFF91A1CA000BA00524E93 /* DreamTree.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DreamTree.pch; sourceTree = "<group>"; };
+		B8E25A851CA0E80D00C1673A /* DTLeafItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTLeafItem.h; sourceTree = "<group>"; };
+		B8E25A861CA0E80D00C1673A /* DTLeafItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTLeafItem.m; sourceTree = "<group>"; };
+		D346E6E107D79A34808CBA43 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8DFF8C71C9FDEDD00524E93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6714466975DD4A9AC0EE929B /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B87E2D1667018EA7B7883BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				035B38F7EB02CFFB106C9CF2 /* Pods.debug.xcconfig */,
+				D346E6E107D79A34808CBA43 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5A1012001E4D8C7EF5F9F271 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DAB3EE8EB33144C5E3A5109 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8DFF8C11C9FDEDD00524E93 = {
+			isa = PBXGroup;
+			children = (
+				B8DFF8CC1C9FDEDD00524E93 /* DreamTree */,
+				B8DFF8CB1C9FDEDD00524E93 /* Products */,
+				2B87E2D1667018EA7B7883BA /* Pods */,
+				5A1012001E4D8C7EF5F9F271 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B8DFF8CB1C9FDEDD00524E93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8DFF8CA1C9FDEDD00524E93 /* DreamTree.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8DFF8CC1C9FDEDD00524E93 /* DreamTree */ = {
+			isa = PBXGroup;
+			children = (
+				B8DFF8D01C9FDEDD00524E93 /* AppDelegate.h */,
+				B8DFF8D11C9FDEDD00524E93 /* AppDelegate.m */,
+				B8DFF9191CA0009A00524E93 /* Soil */,
+				B8DFF8E71C9FE95500524E93 /* Tree */,
+				B8DFF8D91C9FDEDD00524E93 /* Assets.xcassets */,
+				B8DFF8DB1C9FDEDD00524E93 /* LaunchScreen.storyboard */,
+				B8DFF8DE1C9FDEDD00524E93 /* Info.plist */,
+				B8DFF8CD1C9FDEDD00524E93 /* Supporting Files */,
+			);
+			path = DreamTree;
+			sourceTree = "<group>";
+		};
+		B8DFF8CD1C9FDEDD00524E93 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8DFF8CE1C9FDEDD00524E93 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B8DFF8E71C9FE95500524E93 /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				B8DFF8E81C9FE9F200524E93 /* Trunk */,
+				B8DFF9081C9FFECF00524E93 /* Branch */,
+			);
+			path = Tree;
+			sourceTree = "<group>";
+		};
+		B8DFF8E81C9FE9F200524E93 /* Trunk */ = {
+			isa = PBXGroup;
+			children = (
+				B8DFF8EC1C9FEA7000524E93 /* DTMainViewController.h */,
+				B8DFF8ED1C9FEA7000524E93 /* DTMainViewController.m */,
+				B8DFF8E91C9FEA1400524E93 /* DTMainNavigationViewController.h */,
+				B8DFF8EA1C9FEA1400524E93 /* DTMainNavigationViewController.m */,
+			);
+			path = Trunk;
+			sourceTree = "<group>";
+		};
+		B8DFF9081C9FFECF00524E93 /* Branch */ = {
+			isa = PBXGroup;
+			children = (
+				B8DFF9101C9FFECF00524E93 /* Model */,
+				B8DFF9111C9FFECF00524E93 /* View */,
+				B8DFF9091C9FFECF00524E93 /* Controller */,
+			);
+			path = Branch;
+			sourceTree = "<group>";
+		};
+		B8DFF9091C9FFECF00524E93 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B8DFF90A1C9FFECF00524E93 /* DTGodViewController.h */,
+				B8DFF90B1C9FFECF00524E93 /* DTGodViewController.m */,
+				B8DFF90C1C9FFECF00524E93 /* DTLeavesViewController.h */,
+				B8DFF90D1C9FFECF00524E93 /* DTLeavesViewController.m */,
+				B8DFF90E1C9FFECF00524E93 /* DTPassengersViewController.h */,
+				B8DFF90F1C9FFECF00524E93 /* DTPassengersViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B8DFF9101C9FFECF00524E93 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B8E25A851CA0E80D00C1673A /* DTLeafItem.h */,
+				B8E25A861CA0E80D00C1673A /* DTLeafItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B8DFF9111C9FFECF00524E93 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B8DFF9151C9FFF0D00524E93 /* DTLeafCell.h */,
+				B8DFF9161C9FFF0D00524E93 /* DTLeafCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B8DFF9191CA0009A00524E93 /* Soil */ = {
+			isa = PBXGroup;
+			children = (
+				B8DFF91A1CA000BA00524E93 /* DreamTree.pch */,
+			);
+			name = Soil;
+			path = Tree/Soil;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8DFF8C91C9FDEDD00524E93 /* DreamTree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8DFF8E11C9FDEDD00524E93 /* Build configuration list for PBXNativeTarget "DreamTree" */;
+			buildPhases = (
+				08E8A903DC533638F0FD7BCB /* Check Pods Manifest.lock */,
+				B8DFF8C61C9FDEDD00524E93 /* Sources */,
+				B8DFF8C71C9FDEDD00524E93 /* Frameworks */,
+				B8DFF8C81C9FDEDD00524E93 /* Resources */,
+				F3E01A71ADABD889B40B6782 /* Embed Pods Frameworks */,
+				F83ECA4729B28174FCA685C1 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DreamTree;
+			productName = DreamTree;
+			productReference = B8DFF8CA1C9FDEDD00524E93 /* DreamTree.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8DFF8C21C9FDEDD00524E93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DT;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = YanmingFan;
+				TargetAttributes = {
+					B8DFF8C91C9FDEDD00524E93 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = B8DFF8C51C9FDEDD00524E93 /* Build configuration list for PBXProject "DreamTree" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8DFF8C11C9FDEDD00524E93;
+			productRefGroup = B8DFF8CB1C9FDEDD00524E93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8DFF8C91C9FDEDD00524E93 /* DreamTree */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8DFF8C81C9FDEDD00524E93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8DFF8DD1C9FDEDD00524E93 /* LaunchScreen.storyboard in Resources */,
+				B8DFF8DA1C9FDEDD00524E93 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08E8A903DC533638F0FD7BCB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F3E01A71ADABD889B40B6782 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F83ECA4729B28174FCA685C1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8DFF8C61C9FDEDD00524E93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8DFF9121C9FFECF00524E93 /* DTGodViewController.m in Sources */,
+				B8DFF8D21C9FDEDD00524E93 /* AppDelegate.m in Sources */,
+				B8DFF8EE1C9FEA7000524E93 /* DTMainViewController.m in Sources */,
+				B8DFF8EB1C9FEA1400524E93 /* DTMainNavigationViewController.m in Sources */,
+				B8DFF9141C9FFECF00524E93 /* DTPassengersViewController.m in Sources */,
+				B8DFF9131C9FFECF00524E93 /* DTLeavesViewController.m in Sources */,
+				B8DFF8CF1C9FDEDD00524E93 /* main.m in Sources */,
+				B8DFF9171C9FFF0D00524E93 /* DTLeafCell.m in Sources */,
+				B8E25A871CA0E80D00C1673A /* DTLeafItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B8DFF8DB1C9FDEDD00524E93 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8DFF8DC1C9FDEDD00524E93 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8DFF8DF1C9FDEDD00524E93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B8DFF8E01C9FDEDD00524E93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8DFF8E21C9FDEDD00524E93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 035B38F7EB02CFFB106C9CF2 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = DreamTree/Tree/Soil/DreamTree.pch;
+				INFOPLIST_FILE = DreamTree/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YanmingFan.DreamTree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B8DFF8E31C9FDEDD00524E93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D346E6E107D79A34808CBA43 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = DreamTree/Tree/Soil/DreamTree.pch;
+				INFOPLIST_FILE = DreamTree/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YanmingFan.DreamTree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8DFF8C51C9FDEDD00524E93 /* Build configuration list for PBXProject "DreamTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8DFF8DF1C9FDEDD00524E93 /* Debug */,
+				B8DFF8E01C9FDEDD00524E93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8DFF8E11C9FDEDD00524E93 /* Build configuration list for PBXNativeTarget "DreamTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8DFF8E21C9FDEDD00524E93 /* Debug */,
+				B8DFF8E31C9FDEDD00524E93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8DFF8C21C9FDEDD00524E93 /* Project object */;
+}
